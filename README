@@ -1,0 +1,3 @@
+echo "hello world bye world" > /tmp/mapred_test/input/0.txt
+echo "hello hadoop goodebye hadoop" > /tmp/mapred_test/input/1.txt
+hadoop jar mapred-samples-1.0-SNAPSHOT.jar org.dhydrated.mapred.WordCount /tmp/mapred_test/input /tmp/mapred_test/output
